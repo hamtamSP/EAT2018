@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-SG" style="height: 100%;">
+<head>
+	<link rel="icon" href="spfav.ico" type="image/x-icon">
+	<title>Hantam-Resources</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="refresh" content="999">
+	<meta name="description" content="Engineering Academy 2018/19 Group H">
+	<meta name="keywords" content="Hantam">
+	<meta name="author" content="Arian Yap">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="w3.css">
+	<style>
+	body{background-color: lightblue;}
+	</style>
+</head>
+<body>
+	<div class="topbar" style="z-index:4">
+  	<button class="topmenu" onclick="menuopen();" style="margin-top: 10px">Menu</button>
+	 <span class="topicon"><a href="https://www.sp.edu.sg">
+	<img src="sp-logo.png" width="175" height="50" alt="Singapore Polytechnic">
+	</a></span>
+	</div>
+	<!-- Sidebar/menu -->
+<nav class="menulist" style="z-index:3;width:300px;" id="mySidebar"><hr>
+	<div class="w3-bar-item w3-padding"><a><h3><b>Hamtam</b><h3></a></div>
+  <div class="w3-bar-block">
+    <a class="w3-bar-item w3-button w3-padding w3-hide-large w3-dark-grey w3-hover-black" onclick="menuclose()" title="Close Menu"> Close Menu</a>
+    <a class="w3-bar-item w3-button w3-padding" href="index.html">Home</a>
+    <a class="w3-bar-item w3-button w3-padding" href="team.html">Team</a>
+    <a class="w3-bar-item w3-button w3-padding" href="bloghtml">Blog</a>
+    <a class="w3-bar-item w3-button w3-padding w3-blue" href="resources.html">Resources</a>
+    <a class="w3-bar-item w3-button w3-padding" href="review.html">Review</a><br><br>
+  </div>
+</nav>
+
+<div class="maincontent" style="margin-top:43px;">
+
+  <!-- Contents -->
+  <header class="content" style="padding-top:22px">
+    <h4><b>Resources - Hamtam</b></h4>
+    <p>Resources:</p>
+		<p>The designs of the product - <a href="https://www.youtube.com/watch?v=5AlFo0dvmUQ"><b>Link</b></a></p>
+		<p>Learn HTML and CSS from Jake Wright - <a href="https://www.youtube.com/watch?v=bWPMSSsVdPk"><b>Link</b></a></p>
+		<p>Referred to teacher’s launcher as reference.</p>
+		<p>Software/apps used: Autodesk Tinkercad, Notepad, Atom.</p>
+  </header>
+  <br>
+
+	<!-- endnav -->
+  <div class="endnav">
+		<div class="endnavtxt">
+			<div class="endnavtitle">
+				<h4><b>Hamtam</b></h4>
+	 		</div>
+			<li class="endnavsub">
+				<a class="footlink" href="index.html">Home</a>
+			</li>
+			<li class="endnavsub">
+				<a class="footlink" href="team.html">Team</a>
+			</li>
+			<li class="endnavsub">
+				<a class="footlink" href="blog.html">Blog</a>
+			</li>
+			<li class="endnavsub">
+				<a class="footlink" href="resources.html">Resources</a>
+			</li>
+			<li class="endnavsub">
+				<a class="footlink" href="review.html">Review</a>
+			</li>
+		</div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div style="margin-bottom:15px">2018 © Hamtam.</div>
+		<div style=>Done in <a class="footlink" href="https://www.sp.edu.sg">Singapore Polytechnic</a>.</div>
+  </footer>
+
+  <!-- End page content -->
+</div>
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function menuopen() {
+    if (mySidebar.style.display === 'block') {
+        mySidebar.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidebar.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+
+// Close the sidebar with the close button
+function menuclose() {
+    mySidebar.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+</body>
+</html>
