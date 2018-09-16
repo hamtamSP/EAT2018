@@ -66,6 +66,8 @@
 			from{left:-300px;opacity:0}
 			to{left:0;opacity:1}
 		}
+		@media (min-width:993px){.menulist{display:block} .topmenu{display:none}}
+		@media (max-width:992px){.menulist{display:none} .topmenu{display:block}}
 .maincontent{
 		box-sizing: inherit;
 		display: block;
