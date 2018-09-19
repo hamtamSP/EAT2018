@@ -90,6 +90,13 @@
 .teamtitle{
 		padding-left: 175px;
 }
+.image{
+		width: 300px;
+		margin: 10px;
+}
+.image:hover{
+		box-shadow:0 5px 15px rgba(0, 0, 0, 0.5);
+}
 .endnav{
 		background-color: #273443;
 		padding-bottom: 40px;
